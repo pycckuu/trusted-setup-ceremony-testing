@@ -1,0 +1,22 @@
+{
+  "name": "trusted-setup",
+  "version": "1.0.0",
+  "description": "Trusted setup ceremony for ZK circuit",
+  "scripts": {
+    "build": "tsc",
+    "contribute": "ts-node src/contribute.ts",
+    "verify": "ts-node src/verify.ts"
+  },
+  "dependencies": {
+    "snarkjs": "^0.7.0",
+    "fs-extra": "^11.1.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.15.11",
+    "@types/readline-sync": "^1.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

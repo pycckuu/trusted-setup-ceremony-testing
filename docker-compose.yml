@@ -1,0 +1,9 @@
+version: '3'
+services:
+  trusted-setup:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: trusted-setup
+    volumes:
+      - .:/app
